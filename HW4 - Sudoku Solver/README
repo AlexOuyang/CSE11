@@ -1,0 +1,19 @@
+Assignment 4
+ID: A12067610	
+Name: Chenxing Ouyang
+LOGIN: cs11efj
+
+This assignment tests our ability to use various loops and arrays.
+
+This assignment was an implementation of a sudoku solver algorithm
+using for loops and arrays. In order to increase the readability of 
+the code and the effciency of my coding process, I implemented various 
+helper methods inside the class to help me implement the algorithm. 
+I was able to finish and compile the progam. The output of the progam 
+matches the expected output.
+
+The program will read in the table and store it in the "board" variable. 
+Use the board variable to solve the Sudoku problem.
+
+Usage: To use the program, you will have to provide a tableX.txt file 
+to the program. An example usage:    java Sudoku table1.txt
