@@ -1,0 +1,21 @@
+ Assignment 5
+ ID: A12067610
+ NAME: Chenxing Ouyang
+ LOGIN: cs11efj
+ 
+ This homework aims to test our ability to create and utilize methods
+ and work out solutions incrementally
+
+ This assignment was an implementation of a scrabble-esque game where users 
+ will be presented with a number of characters that they will be able to 
+ create words from. The game will present the user with a number of different letters and the user is required to guess a word using the existing letters. 
+
+ In order to increase the readability of the code and the efficiency of the 
+ coding process, I commented the methods in Java doc style. I was able to 
+ finish and compile both part I and II. The output of the progam matches the expectated output.
+
+ Instruction:
+ Press number 1 for computer help, press number 2 for all new letters, press number 3 to quit the game.
+
+ Compilation:  javac Words.java
+ Execution:    java Words
