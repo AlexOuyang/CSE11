@@ -1,0 +1,32 @@
+Assignment 6
+
+
+The goal of this assignment is to create a tool that analyze stocks
+in CSV format and plot the result into a html file. This assignment
+tests our understanding of inheritance and continue to test our ability
+to work with unfamiliar API.
+
+The goals of this assignment are to:
+1. Get you to use objects.
+2. Work out solutions incrementally.
+3. Play with javascript
+
+This assignment involves the implementation of the CSVParser class that 
+loads a csv file and stores each comma separated value as an index in 
+the String[][], a stock Simulator that simulates streaming stock data,
+analysis tools subclasses that gets high, low, and mean values of the
+data. Then the data are written to a JSON file and are displaced as 
+html5 graphs that can be viewed in web broswers.
+
+In order to increase the readability of the code and the efficiency of 
+the coding process, I commented the methods in Java doc style. I was 
+able to  finish and compile the program successfully. The output of 
+the progam matches the expectated output.
+
+Compilation:  javac Driver.java
+Execution:    java Driver
+
+Data visualization: open highstocks.html, lowstocks.html, and 
+meanstocks.html in broswers such as firefox. 
+
+note:Chrome may not work well.

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<style>
+	 canvas {
+       padding-left: 0;
+       padding-right: 0;
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+	 }
+	 h2 {
+       margin-left: 20px;
+	   font-family: "Arial";
+	 }
+	</style>
+	
+    <meta charset="utf-8" />
+    <title>High Values</title>
+    <script src='Chart.js'></script>
+	<script src="jquery.min.js"></script>
+  </head>
+  <body>
+	<div id="canvas">
+	  <center><h2>Example Graph</h2></center>
+	  <canvas id="stocks" width="600" height="400"></canvas>
+	</div>
+	
+	<script>
+
+	 $.getJSON("stocks.json", function (data) {
+	   var stocks = document.getElementById('stocks').getContext('2d');
+	   new Chart(stocks).Line(data,{datasetFill : false});
+	 });
+
+	 console.log("hi");
+
+	</script>
+
+  </body>
+</html>

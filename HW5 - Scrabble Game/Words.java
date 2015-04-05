@@ -200,7 +200,9 @@ public class Words {
      *  provided by instructor
      *
      * @return char - the random weighted char
-     * @see http://en.wikipedia.org/wiki/Scrabble_letter_distributions#English
+     * @see <a href=
+	 * "http://en.wikipedia.org/wiki/Scrabble_letter_distributions#English">
+     * Scrabble letter distribution</a>
      */
     public static char getLetter() {
 		int rand = randGen.nextInt(197);
@@ -241,7 +243,9 @@ public class Words {
      * the main method calls the helper method, reads the dictionary from a
      * file into an arrayList, prints out the player menu, then respond to
      * the player's inputs. Input 1 for computer help, input 2 for all new 
-     * letters, input 3 to quit the game. At the same time, we keep a score
+     * letters, input 3 to quit the game. At the same time, we keep a score.
+     * @param args - args is an array of console line argument whose data 
+     * type is a String
      */
     public static void main(String[] args) {
     	Scanner scanner = new Scanner(System.in);
