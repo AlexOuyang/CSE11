@@ -1,8 +1,5 @@
 /*************************************************************************
- * ID: A12067610
- * NAME: Chenxing Ouyang
- * LOGIN: cs11efj
- *
+
  * Compilation:  javac Words.java
  * Execution:    java Words
  * About: The end goal will be a scrabble-esque game where users will be 
