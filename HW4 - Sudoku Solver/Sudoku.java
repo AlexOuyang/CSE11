@@ -1,8 +1,5 @@
 /*************************************************************************
-  *	 ID:A12067610 
-  *	 NAME: Chenxing Ouyang
-  *	 LOGIN: cs11efj
-  *
+
   *	 Compilation:  javac Sudoku.java
   *	 Execution:	   java Sudoku <table filename>
   *	 About: Sudoku solver! Given a text file with an unfinished sudoku table
